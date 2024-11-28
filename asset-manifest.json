@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vanila-react-login/static/css/main.1251df7d.css",
-    "main.js": "/vanila-react-login/static/js/main.b2ad38e7.js",
+    "main.js": "/vanila-react-login/static/js/main.3c65cc36.js",
     "static/js/453.ec01922f.chunk.js": "/vanila-react-login/static/js/453.ec01922f.chunk.js",
     "index.html": "/vanila-react-login/index.html",
     "main.1251df7d.css.map": "/vanila-react-login/static/css/main.1251df7d.css.map",
-    "main.b2ad38e7.js.map": "/vanila-react-login/static/js/main.b2ad38e7.js.map",
+    "main.3c65cc36.js.map": "/vanila-react-login/static/js/main.3c65cc36.js.map",
     "453.ec01922f.chunk.js.map": "/vanila-react-login/static/js/453.ec01922f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1251df7d.css",
-    "static/js/main.b2ad38e7.js"
+    "static/js/main.3c65cc36.js"
   ]
 }
