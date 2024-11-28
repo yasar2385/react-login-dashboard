@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/vanila-react-login/static/css/main.1251df7d.css",
-    "main.js": "/vanila-react-login/static/js/main.3c65cc36.js",
-    "static/js/453.ec01922f.chunk.js": "/vanila-react-login/static/js/453.ec01922f.chunk.js",
-    "index.html": "/vanila-react-login/index.html",
-    "main.1251df7d.css.map": "/vanila-react-login/static/css/main.1251df7d.css.map",
-    "main.3c65cc36.js.map": "/vanila-react-login/static/js/main.3c65cc36.js.map",
-    "453.ec01922f.chunk.js.map": "/vanila-react-login/static/js/453.ec01922f.chunk.js.map"
+    "main.css": "/react-login-dashboard/static/css/main.1251df7d.css",
+    "main.js": "/react-login-dashboard/static/js/main.28e48587.js",
+    "static/js/453.8037b54e.chunk.js": "/react-login-dashboard/static/js/453.8037b54e.chunk.js",
+    "index.html": "/react-login-dashboard/index.html",
+    "main.1251df7d.css.map": "/react-login-dashboard/static/css/main.1251df7d.css.map",
+    "main.28e48587.js.map": "/react-login-dashboard/static/js/main.28e48587.js.map",
+    "453.8037b54e.chunk.js.map": "/react-login-dashboard/static/js/453.8037b54e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1251df7d.css",
-    "static/js/main.3c65cc36.js"
+    "static/js/main.28e48587.js"
   ]
 }
