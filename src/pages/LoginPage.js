@@ -1,16 +1,21 @@
-import React from 'react';
-
+import React, { useState } from 'react';
+import { useAuth } from '../context/AuthContext';
+import { useNavigate } from 'react-router-dom'
 
 function LoginForm() {
-    const [username, setUsername] = React.useState('');
-    const [password, setPassword] = React.useState('');
-    const [error, setError] = React.useState('');
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
+    const [error, setError] = useState('');
+    const { login } = useAuth();
+    const navigate = useNavigate();
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        if (username === 'demo' && password === 'password') {
-            alert('Login Successful!');
-        } else {
+        setError('');
+        try {
+            await login(username, password)
+            navigate('/dashboard');
+        } catch (err) {
             setError('Invalid credentials');
         }
     };
@@ -22,22 +27,22 @@ function LoginForm() {
                 {error && (
                     <div className="text-red-500 mb-4">{error}</div>
                 )}
-                <input 
-                    type="text" 
+                <input
+                    type="text"
                     placeholder="Username"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
                     className="w-full p-2 border rounded mb-4"
                 />
-                <input 
-                    type="password" 
+                <input
+                    type="password"
                     placeholder="Password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     className="w-full p-2 border rounded mb-4"
                 />
-                <button 
-                    type="submit" 
+                <button
+                    type="submit"
                     className="w-full bg-green-500 text-white p-2 rounded"
                 >
                     Login

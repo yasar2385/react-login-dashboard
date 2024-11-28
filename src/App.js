@@ -8,7 +8,7 @@ import ProtectedRoute from './components/ProtectedRoute';
 function App() {
   return (
     <AuthProvider>
-      <BrowserRouter basename="/my-dashboard">
+      <BrowserRouter basename="/vanila-react-login">
         <Routes>
           <Route path="/login" element={<LoginPage />} />
           <Route element={<ProtectedRoute />}>
