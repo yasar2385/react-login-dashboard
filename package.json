@@ -1,6 +1,6 @@
 {
-  "homepage": "https://yasar2385.github.io/vanila-react-login",
-  "name": "vanila-react-login",
+  "homepage": "https://yasar2385.github.io/react-login-dashboard",
+  "name": "react-login-dashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
